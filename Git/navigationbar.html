@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Navigation bar in CSS</title>
+		<style>
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #38588a;
+			}
+
+			li {
+				float: left;
+			}
+
+			li a {
+				display: block;
+				padding: 13px 15px;
+				color: white;
+				text-decoration: none;
+				text-align: center;
+			}
+
+			li a:hover:not(.active) {
+				background-color: #111;
+			}
+
+			.active {
+				background-color: #04AA6D;
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><a class="active" href="#">Home</a></li>
+			<li><a href="#">HTML5</a></li>
+			<li><a href="#">CSS</a></li>
+			<li><a href="#">JavaScript</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</body>
+</html>

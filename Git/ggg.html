@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Animation Example</title>
+    <style>
+      /* Define the keyframes */
+      @keyframes move {
+        0% { left: 0; }
+        100% { left: 100%; }
+      }
+
+      /* Apply the animation to an element */
+      .box {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        animation: move 2s linear infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>

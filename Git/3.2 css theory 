@@ -1,0 +1,257 @@
+
+		------ OPEN.UOM ------
+
+		BASIC PROPERTIES OF CSS
+
+
+
+what will you learn today 
+	1-what is a CSS property 
+	2-CSS properties used commonly 
+
+		* text properties 
+		* color properties
+		* spacing properties
+
+------what is property in CSS?
+
+1) That use for the style the HTML elements 
+2) Each HTML element can be styled using different CSS Properties
+
+3) There are many CSS properties to style the elements of HTML
+		color
+		size
+		border
+		text
+
+----------How to add a property in CSS?
+
+	** A CSS property consists of a property 
+		name and a property value.
+
+	** To specify more than one of a property,
+		each pair is separated by a semicolon 
+
+
+----------Text properties of CSS
+	
+
+	** Let's see how we can change the text 
+		using CSS properties 
+
+	** Text properties discussed,
+		* Font Family 
+		* Font size 
+		* Font weight 
+
+
+
+-------------Text properties 
+
+
+	** Font-family 
+		* Allow us to change the font type used 
+		* any standard font can be used.
+
+	** Font-size
+		* May be specified using a few different types.
+		* Easiest to work with is pixels (px).
+
+	** Font_size
+		* May be specified using a few different types.
+		* Easiest to work with is pixels (px).
+
+
+
+
+------------Colour properties of CSS
+
+	** Let's see how we can change the color 
+		using CSS properties 
+
+	** Color Properties discussed,
+		* color
+		* background color
+
+
+
+-----------Colour properties 
+
+	** Color
+		* Allows us to specify the color of the text.
+
+	** Background-color
+		* Allows us to specify the background color for 
+			the element.
+
+
+
+-------------Spacing properties of CSS
+	
+	** Let's see how we can change the 
+		spacing using CSS properties.
+
+	** Spacing properties discussed,
+		* padding
+		* margin
+		* border
+
+
+
+--------------Spacing properties-padding
+
+	** Padding 
+		* Refers to the space around out content
+
+	** Margin 
+		* Similar to padding in that is affects the spacing
+			around the content.
+
+	** Border
+		* Is in between the padding and margin.
+
+
+------------------------What we learnt -------------
+
+	1- CSS property is used to style the HTML elements
+	2- Main CSS properties can be categorized into 
+		text, color and spacing 
+	3- How CSS properties can be used to change the look and feel
+		of the HTML content.
+
+
+
+##-----------------------------------------------------------------------------##
+
+	3.3  CSS Background styling ----------------
+
+
+	CSS Backgrounds 
+
+		** CSS background property is used to define the 
+			background effects on HTML elements.
+
+		** CSS background properties :
+			* Background-color
+			* Background-image 
+			* Background-repeat
+			* Background-attachment
+			* Background-position
+
+	CSS background-color
+
+		** used to specify the background color of the element.
+		** colors can be specified by,
+
+			* valid color name - eg:"blue"
+			* hex value - eg: #00ff00
+			* RGB value - eg: rgb(255,0,0)
+
+
+		<style>
+		body{
+			background-color: blue;
+		}
+		h1{
+			background-color: #00ff00; // Green color-hex value 
+		}
+		p{
+			background-color: rgb(255, 0, 0); // Red color-RGB value
+		}
+
+		</style>
+
+
+
+		CSS background-image 
+
+			** Used to set an image as a background of an element 
+				<style>
+					body {
+						background-image: url('gradient.jpg');
+					}
+
+				</style>
+
+
+		CSS background-repeat 
+
+			** By default, background-image property repeats the 
+				image in both horizontally and vertically.
+
+			** Can control the repeating property.
+				* If repeat horizontally only :
+					
+					<style>
+						body {
+							background-image: url('gradient.jpg');
+							background-repeat: repeat-x;
+						}
+
+					</style>
+
+			** Can control the repeating property.
+				* if repeat vertically only:
+				
+					<style>
+						body {
+							background-image:url('gradient.png');
+							background-repeat: repeat-y;
+						}
+					</style>
+
+
+			** Can control the repeating property.
+				* if no repeat:
+
+					<style>
+						body {
+							background-image: url('gradient.png');
+							background-repeat: no-repeat;
+						}
+					</style>
+
+
+		CSS background-position
+
+			** Background image can be positioned.
+
+				<style>
+					body {
+						background-image: url('tree.png');
+						background-repeat: no-repeat;
+						background-position: right;
+					}
+				</style>
+
+				(top, bottom, corner, left, right)
+
+
+
+		CSS background-attachment
+
+				** Specifies whether the background image should scroll
+					or be fixed.
+
+				<style>
+					body {
+					background-image: url('tree.png');
+					background-repeat: no-repeat;
+					background-position: right;
+					background-image: fixed;
+					}
+
+				</style>
+
+
+				What we learnt 
+					## CSS Background property
+					## Background effects on HTML elements
+
+##-----------------------------------------------------------------------------##
+
+
+
+
+
+

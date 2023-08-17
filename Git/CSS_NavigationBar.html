@@ -1,0 +1,105 @@
+
+<!--	--------------OPEN.UOM WEB DESIGN FOR BEGINNERS--------- --
+		
+	3.4	CSS NAVIGATION BAR ||
+
+CSS Navigation Bar ctd.
+	** It is a UI element on a web page.
+	** Help visitors navigate between different section easily...
+	** Navigation bar consists of list of links.
+		* Horizontal Navbar
+		* Vertical Navbar
+
+( /* This is a comment in CSS */  )
+
+Let's create a Horizontal Navbar:: -->
+
+<!--
+<!Doctype html>
+<html>
+	<head>
+		<title>Naviation bar in CSS</title>
+	</head>
+	<body>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">HTML5</a></li>
+			<li><a href="#">CSS</a></li>
+			<li><a href="#">JavaScript</a></li>
+			<li><a href="$">Contact</a></li>
+
+		</ul>
+	</body>
+</html>
+-->
+<!-- Now we change these with CSS properties -->
+
+<!Doctype html>
+<html>
+	<head>
+		<title>Naviation bar in CSS</title>
+	<style>
+		/* list-style-type none lesa laba dimen list eke athi bullet remove we */
+		/* margin eka 0 dimen margin eka nathiwe... */
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 5px;
+			overflow: hidden;
+			background-color: #38588a;
+
+		}
+		/* Now we want to make that Horizontal navbar */\
+		li{
+			float: left;
+			display: inline;
+		}
+		li a{
+			display: block;
+			padding: 13px 15px	;
+			color: white;
+			text-decoration: none;
+			text-align: center;
+		/* MEMA TEXT DECORATION NONE LABA DIMA MAGIN EHI THIBU YATA IRI NATHIWE */
+		}	
+		.active{
+			background-color: #04AA6D;
+		}
+		li a:hover:not(.active){
+			background-color: #111;
+		}
+		
+		
+
+	</style>
+
+	</head>
+	<body>
+		<ul>
+			<li><a class="active" href="#">Home</a></li>
+			<li><a href="#">HTML5</a></li>
+			<li><a href="#">CSS</a></li>
+			<li><a href="#">JavaScript</a></li>
+			<li><a href="#">Contact</a></li>
+
+		</ul>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
